@@ -1,7 +1,29 @@
-#dPresonales1 {
+h1 {
     color: red;
 }
 
-.trabajador {
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+#datos1 {
     color: blue;
+}
+
+#datos2 {
+    color: green;
+    te
+}
+
+.dpersonales {
+    border-style: solid;
+}
+
+.estudios {
+    border-style: double;
+}
+
+.subrayado {
+    text-decoration: underline;
 }
