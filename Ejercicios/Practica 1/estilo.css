@@ -101,3 +101,7 @@ td{
 table tr:last-child td {
     border-bottom-width: 0;
 }
+
+.elaboracion {
+    line-height: 1.6.;
+}
