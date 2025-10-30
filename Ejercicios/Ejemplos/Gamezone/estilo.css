@@ -143,4 +143,11 @@ input:invalid {
 .tarjeta form button {
     padding: 0.5rem 0.5rem;
     font-size: 1rem;
+    align-self: left;
+    margin: 0.5rem 0rem 0rem auto;
+}
+
+.tarjeta form input {
+    margin-bottom: 1rem;
+    padding: 5px;
 }
