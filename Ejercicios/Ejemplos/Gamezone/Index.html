@@ -85,6 +85,55 @@
                 <button type="submit">Buscar</button>
             </form>
         </section>
+        <section class="tarjeta">
+            <form action="contacto.php" method="get">
+                <fieldset>
+                    <legend>Lista desplegable</legend>
+                    <label for="categoria">Categoria</label>
+                    <select name="categoria" id="categoria">
+                        <option selected disabled>Selecciona una opcion-</option>
+                        <option value="fantasia">Fantasia</option>
+                        <option value="rol">Rol</option>
+                        <option value="aventuras">aventuras</option>
+                        <option value="lucha">lucha</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Input tipo radio</legend>
+                    <p>Selecciona la plataforma</p>
+                    <input type="radio" name="plataforma" id="pc" value="pc">
+                    <label for="pc">PC</label>
+                    <br>
+                    <input type="radio" name="plataforma" id="ps5" value="ps5">
+                    <label for="ps5">PS5</label>
+                    <br>
+                    <input type="radio" name="plataforma" id="nintendo" value="nintendo">
+                    <label for="nintendo">Nintento</label>
+                    <br>
+                </fieldset>
+                <fieldset>
+                    <legend>Input tipo checkbox</legend>
+                    <p>Selecciona la plataforma</p>
+                    <input type="checkbox" name="plataforma" id="pc" value="pc">
+                    <label for="pc">PC</label>
+                    <br>
+                    <input type="checkbox" name="plataforma" id="ps5" value="ps5">
+                    <label for="ps5">PS5</label>
+                    <br>
+                    <input type="checkbox" name="plataforma" id="nintendo" value="nintendo">
+                    <label for="nintendo">Nintento</label>
+                    <br>
+                </fieldset>
+                <fieldset>
+                    <legend>Input tipo fecha</legend>
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="fecha" id="fecha">
+                    <label for="fecha-hora">Fecha y hora</label>
+                    <input type="datetime-local" name="fecha-hora" id="fecha-hora">
+                </fieldset>
+                <input type="submit" value="enviar">
+            </form>
+        </section>
     </main>
     <footer class="pie">
         &COPY;2025. Todos los derechos reservados
