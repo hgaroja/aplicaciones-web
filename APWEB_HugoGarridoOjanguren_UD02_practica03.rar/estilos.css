@@ -1,4 +1,3 @@
-/* --- GENERAL --- */
 * {
 box-sizing: border-box;
 }
@@ -18,44 +17,40 @@ background-color: #ffffff;
 color: #333333;
 }
 
-/* --- CABECERA --- */
+
 header {
 display: flex;
-justify-content: center; /* logo centrado */
+justify-content: center; 
 align-items: center;
 padding: 1.5rem 0;
 }
 
 header img {
-width: 420px;  /* logo un poco más grande */
+width: 420px;  
 height: auto;
 }
 
 
-
-/* --- CONTENIDO PRINCIPAL --- */
 main {
 flex: 1 0 auto;
 display: flex;
-justify-content: flex-start; /* ligeramente hacia la izquierda */
+justify-content: flex-start; 
 align-items: flex-start;
-padding: 2rem 0 2rem 6rem; /* margen izquierdo mayor (6rem) */
+padding: 2rem 0 2rem 6rem; 
 }
 
 
-
-/* --- FORMULARIO --- */
 form {
 width: 400px;
 }
 
 fieldset {
-background-color: #f4f1ed;       /* Fondo */
-color: firebrick;                /* Color texto etiquetas */
-border: 2px solid darkgoldenrod; /* Borde dorado */
+background-color: #f4f1ed;       
+color: firebrick;                
+border: 2px solid darkgoldenrod; 
 border-radius: 7px;
 padding: 1rem 1.25rem;
-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Pequeña sombra para realce */
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
 }
 
 legend {
@@ -64,7 +59,6 @@ font-weight: bold;
 font-size: 1.1rem;
 }
 
-/* --- CAMPOS --- */
 .campo {
 display: flex;
 flex-direction: row;
@@ -93,7 +87,6 @@ padding: 0.35rem;
 font-size: 0.95rem;
 }
 
-/* --- TEXTAREA --- */
 .campo.area {
 align-items: flex-start;
 }
@@ -102,7 +95,6 @@ align-items: flex-start;
 padding-top: 0.4rem;
 }
 
-/* --- CAMPO IMAGEN --- */
 .imagen-campo {
 flex-direction: column;
 align-items: flex-start;
@@ -113,7 +105,6 @@ gap: 5px;
 width: 100%;
 }
 
-/* --- BOTONES --- */
 .botones {
 display: flex;
 justify-content: center;
@@ -145,7 +136,6 @@ background-color: #e3e3e3;
 }
 
 
-/* --- PIE DE PÁGINA --- */
 footer {
 background-color: #333;
 color: white;
@@ -155,14 +145,14 @@ padding: 10px 0;
 
 footer h3 {
 margin: 0.5rem 0 0.25rem;
-color: #f7c600; /* color dorado */
+color: #f7c600; 
 font-size: 1.3rem; 
-letter-spacing: 0.5px; /* ligera separación entre letras */
+letter-spacing: 0.5px; 
 font-weight: bold;
 }
 
 
-/* --- REDES SOCIALES --- */
+
 footer .redes {
 display: flex;
 justify-content: center;
