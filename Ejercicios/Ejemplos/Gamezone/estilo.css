@@ -269,3 +269,41 @@ button[type="submit"]:hover {
 .grid-container :nth-child(4) { background-color: aquamarine}
 .grid-container :nth-child(5) { background-color: green ;}
 .grid-container :nth-child(6) { background-color: darkred ;}
+
+
+.contenedor-areas {
+    display: grid;
+    min-height: 400px;
+    grid-template-columns: 200px 3fr 1fr;
+    grid-template-rows: 2fr 5fr 1fr;
+    grid-template-areas: 
+        "cabecera cabecera cabecera" 
+        "  menu      menu    menu  "
+        "  pie       pie     pie   ";
+    gap: 15px;
+}
+
+.area-header {
+    background-color: blue;
+    grid-area: cabecera;
+}
+
+.area-menu {
+    background-color: green;
+    grid-area: menu;
+}
+
+.area-main {
+    background-color: goldenrod;
+    grid-area: principal;
+}
+
+.area-aside {
+    background-color: aquamarine;
+    grid-area: lateral;
+}
+
+.area-footer {
+    background-color: red;
+    grid-area: pata;
+}
